@@ -9,7 +9,6 @@ body{
     font-family: Combo, cursive;
     font-weight: 400;
     color: #ac5c06;
-    text-emphasis: bold;
 }
 /* headings and Logo */
 
@@ -23,14 +22,17 @@ h2 {
     font-family: "Irish Grover", cursive;
     letter-spacing: 4px;
     color: #003300;
-
-}
-nav {
-    font-family: "Irish Grover", cursive;
-    letter-spacing: 4px;
-    color: #003300;
 }
 #logo {
     float: left;
     font-size: 300%;
+}
+#menu {
+    font-family: "Irish Grover", cursive;
+    font-size: 120%;
+}
+#menu li {
+    float: right;
+    list-style: none;
+    margin-right: 4px;
 }
