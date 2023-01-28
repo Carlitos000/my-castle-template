@@ -8,7 +8,7 @@
 body{
     font-family: Combo, cursive;
     font-weight: 400;
-    color: #ac5c06;
+    color: #003300;
 }
 /* headings and Logo */
 
@@ -31,8 +31,19 @@ h2 {
     font-family: "Irish Grover", cursive;
     font-size: 120%;
 }
+#menu, #logo {
+    line-height: 75px;
+}
 #menu li {
     float: right;
     list-style: none;
     margin-right: 4px;
+    padding: 20px;
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+#menu a:hover {
+    color: #ac5c06;
 }
