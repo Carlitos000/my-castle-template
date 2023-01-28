@@ -6,6 +6,31 @@
     border: none;
 }
 body{
-    font-family: "Irish Grover", cursive;
+    font-family: Combo, cursive;
     font-weight: 400;
+    color: #ac5c06;
+    text-emphasis: bold;
+}
+/* headings and Logo */
+
+h1 {
+    font-family: "Irish Grover", cursive;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #003300;
+}
+h2 {
+    font-family: "Irish Grover", cursive;
+    letter-spacing: 4px;
+    color: #003300;
+
+}
+nav {
+    font-family: "Irish Grover", cursive;
+    letter-spacing: 4px;
+    color: #003300;
+}
+#logo {
+    float: left;
+    font-size: 300%;
 }
