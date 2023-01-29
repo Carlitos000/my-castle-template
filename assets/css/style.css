@@ -26,6 +26,7 @@ h2 {
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 40px;
 }
 #menu {
     font-family: "Irish Grover", cursive;
@@ -71,6 +72,41 @@ h2 {
     }
     to {
         transform: scale(1.2);
-    }
-    
+    }    
+}
+
+/* five castles*/
+#five-castles {
+    height: 600px;
+
+}
+#first-castle {
+    padding-top: 30px;
+    width: 20%;
+    float: left;
+    background-color: red;
+}
+#second-castle {
+    padding-top: 30px;
+    width: 20%;
+    float: left;
+    background-color: yellow;
+}
+#third-castle {
+    padding-top: 30px;
+    width: 20%;
+    float: left;
+    background-color: green;
+}
+#fourth-castle {
+    padding-top: 30px;
+    width: 20%;
+    float: left;
+    background-color: blue;
+}
+#fifth-castle {
+    padding-top: 30px;
+    width: 20%;
+    float: left;
+    background-color: orange;
 }
