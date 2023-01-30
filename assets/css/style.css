@@ -21,7 +21,7 @@ h1 {
 h2 {
     font-family: "Irish Grover", cursive;
     letter-spacing: 4px;
-    color: #003300;
+    color: #a4780a;
 }
 #logo {
     float: left;
@@ -30,7 +30,7 @@ h2 {
 }
 #menu {
     font-family: "Irish Grover", cursive;
-    font-size: 120%;
+    font-size: 150%;
 }
 #menu, #logo {
     line-height: 75px;
@@ -75,38 +75,82 @@ h2 {
     }    
 }
 
-/* five castles*/
-#five-castles {
+/* six castles*/
+#six-castles {
     height: 600px;
 
 }
 #first-castle {
     padding-top: 30px;
-    width: 20%;
+    width: 33%;
     float: left;
-    background-color: red;
+    height: 300px;
+    text-align: center;
 }
 #second-castle {
     padding-top: 30px;
-    width: 20%;
+    width: 33%;
     float: left;
-    background-color: yellow;
+    height: 300px;
+    text-align: center;
 }
 #third-castle {
     padding-top: 30px;
-    width: 20%;
+    width: 33%;
     float: left;
-    background-color: green;
+    height: 300px;
+    text-align: center;
 }
 #fourth-castle {
     padding-top: 30px;
-    width: 20%;
+    width: 33%;
     float: left;
-    background-color: blue;
+    height: 300px;
+    text-align: center;
 }
 #fifth-castle {
     padding-top: 30px;
-    width: 20%;
+    width: 33%;
     float: left;
-    background-color: orange;
+    height: 300px;
+    text-align: center;
+}
+#sixth-castle {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    height: 300px;
+    text-align: center;
+}
+#welcome {
+    text-align: center;
+    color: #003300;
+    margin: 30px 0;
+    font-size: 280%;
+}
+
+/*adding the images*/
+#one {
+    background: url(../images/pic\ 777.jpg) no-repeat center center;
+    height: 100%;
+}
+#two {
+    background: url(../images/Mcdermott4.jpeg) no-repeat center center;
+    height: 100%;
+}
+#three {
+    background: url(../images/Mcdermott4.jpeg) no-repeat center center;
+    height: 100%;
+}
+#four {
+    background: url(../images/Mcdermott4.jpeg) no-repeat center center;
+    height: 100%;
+}
+#five {
+    background: url(../images/Mcdermott4.jpeg) no-repeat center center;
+    height: 100%;
+}
+#six {
+    background: url(../images/Mcdermott4.jpeg) no-repeat center center;
+    height: 100%;
 }
