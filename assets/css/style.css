@@ -21,7 +21,7 @@ h1 {
 h2 {
     font-family: "Irish Grover", cursive;
     letter-spacing: 4px;
-    color: #a4780a;
+    color: #534217;
 }
 #logo {
     float: left;
@@ -131,26 +131,51 @@ h2 {
 
 /*adding the images*/
 #one {
-    background: url(../images/pic\ 777.jpg) no-repeat center center;
+    background: url(../images/pic\ 777.jpg);
+    background-size: cover;
+    background-position: center;
     height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
 }
 #two {
-    background: url(../images/Mcdermott4.jpeg) no-repeat center center;
+    background: url(../images/Mcdermott4.jpeg);
+    background-size: cover;
+    background-position: center;
     height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
 }
 #three {
-    background: url(../images/Mcdermott4.jpeg) no-repeat center center;
+    background: url(../images/Mcdermott4.jpeg);
+    background-size: cover;
+    background-position: center;
     height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
 }
 #four {
-    background: url(../images/Mcdermott4.jpeg) no-repeat center center;
+    background: url(../images/Mcdermott4.jpeg);
+    background-size: cover;
+    background-position: center;
     height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
 }
 #five {
-    background: url(../images/Mcdermott4.jpeg) no-repeat center center;
+    background: url(../images/Mcdermott4.jpeg);
+    background-size: cover;
+    background-position: center;
     height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
 }
 #six {
-    background: url(../images/Mcdermott4.jpeg) no-repeat center center;
+    background: url(../images/Mcdermott4.jpeg);
+    background-size: cover;
+    background-position: center;
     height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
