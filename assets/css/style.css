@@ -179,3 +179,7 @@ h2 {
     background-repeat: no-repeat;
     overflow: hidden;
 }
+#six-castles div {
+    border: 2px solid white;
+    box-sizing: border-box;
+}
