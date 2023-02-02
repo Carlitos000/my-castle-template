@@ -191,6 +191,7 @@ footer {
     height: 150px;
     bottom: 0;
     width: 100%;
+    float: left;
 }
 
 .social-media {
@@ -205,7 +206,7 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: green;
+    color: #093609;
 }
 
 /* castle descriptions file */ 
@@ -234,4 +235,46 @@ footer {
 .description > p {
     text-align: center;
     padding: 50px 50px;
+}
+
+/* Media queries */
+
+/* For larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width: 1200px) {
+    #six-castles {
+        width: 65%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    #six-castles > div {
+        float: left;
+        width: 100%;
+        padding: 0;
+    }
+
+
+    #welcome {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+/*
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    #center-about {
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    hr {
+        display: none;
+    }
+*/
 }
