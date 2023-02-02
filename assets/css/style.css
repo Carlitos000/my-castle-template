@@ -291,3 +291,18 @@ footer {
         padding: 5px 10px;
     }
  }
+
+ #about {
+    text-align: center;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    margin: 20px 40px;
+    background: url(../images/Mcdermott4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .4)
+ }
+ #about > p {
+    font-size: x-large;
+ }
