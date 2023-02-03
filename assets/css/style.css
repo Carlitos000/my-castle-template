@@ -59,7 +59,8 @@ h2 {
 #main-image {
     height:600px;
     width:100%;
-    background: url(../images/McDermott3.jpeg) no-repeat center center;
+    background: url(../images/mainpicture.jpg) no-repeat center center;
+    background-size: cover;
 
     /* animates zoom affect on loanding page*/
     animation-name: main-zoom;
@@ -132,7 +133,7 @@ h2 {
 
 /*adding the images*/
 #one {
-    background: url(../images/Mcdermott4.jpeg);
+    background: url(../images/kilkenny1.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -140,7 +141,7 @@ h2 {
     background-repeat: no-repeat;
 }
 #two {
-    background: url(../images/Mcdermott4.jpeg);
+    background: url(../images/kylemore1.jpeg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -148,7 +149,7 @@ h2 {
     background-repeat: no-repeat;
 }
 #three {
-    background: url(../images/Mcdermott4.jpeg);
+    background: url(../images/dublin2.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -156,7 +157,7 @@ h2 {
     background-repeat: no-repeat;
 }
 #four {
-    background: url(../images/Mcdermott4.jpeg);
+    background: url(../images/ashford2.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -164,7 +165,7 @@ h2 {
     background-repeat: no-repeat;
 }
 #five {
-    background: url(../images/Mcdermott4.jpeg);
+    background: url(../images/slane1.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -172,7 +173,7 @@ h2 {
     background-repeat: no-repeat;
 }
 #six {
-    background: url(../images/Mcdermott4.jpeg);
+    background: url(../images/bunratty1.jpg);
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -212,7 +213,7 @@ footer {
     color: #093609;
 }
 
-/* castle descriptions file */ 
+/* castle descriptions files/about us */ 
 
 .photos {
     width: 50%;
@@ -228,7 +229,7 @@ footer {
 }
 
 .description {
-    font-size: x-large;
+    font-size: large;
     width: 50%;
     height: 600px;
     float: left;
@@ -294,18 +295,21 @@ footer {
         padding: 5px 10px;
     }
  }
-
+/*about us file*/
  #about {
     text-align: center;
     height: 100%;
     float: left;
     padding: 50px;
     margin: 20px 40px;
-    background: url(../images/Mcdermott4.jpeg);
+    background: url(../images/about.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, .4)
+    background-color: rgba(0, 0, 0, .5);
  }
  #about > p {
     font-size: x-large;
+    font-weight: bold;
+    color: black;
+
  }
