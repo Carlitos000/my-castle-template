@@ -184,6 +184,9 @@ h2 {
     border: 2px solid white;
     box-sizing: border-box;
 }
+#six-castles a {
+    text-decoration: none;
+}
 
 /* footer style*/
 
