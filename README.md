@@ -1,108 +1,60 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Irish Castles
 
-Welcome USER_NAME,
+Irish Castles is a niche site that provides people with a resource to learn about history, architecture and heritage in Ireland. This website focuses on sharing basic information about castles located in various regions across Ireland. Irish Castles was designed with an emphasis on historic content, as well as user experience.\
+With Irish Castle Website, you can access to a selected list of castles in Ireland and their history. You can also find information about each castle so when you visit, you are prepared and know what to expect. A comprehensive information service for castles in Ireland, featuring descriptions of a selection of historically significant Irish houses.\
+We are launching this website with a selection of castles in Ireland and their history. We will build on our database as we go along. Every castle is a monument to an event of special importance, because a residence cannot be built every day. In Ireland there are many of these monuments, monuments to ancestors who lived and made history.\
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
+### Existing Features
++ Navigation Bar
+   - A functional navigation bar, at the top of every page, immediately allows users to see what is available on each page. It includes clear links to the Home page and About Us. Each link is set in a clear website font, allowing users to quickly scan and find exactly what they need by scanning each line.
+   - Each page has a responsive full-width navigation bar at the top of the page with links to jump from one section to another.
++ Selection of the Best Irish Castles Section
+  - In this section, we list six Irish castles. Each bold entry is a link.
+  - All we have to do is go through this list of castles in Ireland and check out their page by clicking on the picture of name. This is where you can find details on our selected list. 
++ The Footer
+  - The footer section includes links to the relevant social media pages. These open in new tabs, encouraging a smooth user experience.
+  - The footer provides links to social media sites allowing navigation of the site to be simpler for the user.
++ About Us
+  - This section is a brief introduction to castles in Ireland for users who are interested in the subject. From time to time, the site will be updated with more recent information and photographs.
+  - This website is for people who want to learn about the history and heritage of Ireland's castles for educational purposes.
++ Castles Pages
+  - Below are each the pages of important castles present on our site. They consist of images of the castles in question and accompanied by a description and relevant historical data.
+  - o	Each page has an interactive navigation bar with links to other pages and the footer containing links that redirect the reader to the social media profiles of the website.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features Left to Implement
+  - Ireland is home to over 3,000 castles, and our mission is to help people find the right one for them. By continually improving what we have to offer and in order to bring the best of what Ireland has to offer to everyone, we will increase our castle selection frequently. 
+  - We plan to implement a subscription section so that people interested in receiving periodic information via email about the history of other castles in Ireland will be able to do so.
 
-## Gitpod Reminders
+## Testing
+  -	This website has been tested to work in different browsers: Chrome, Firefox and Safari.
+  -	I ensured that the website renders correctly across all devices and looks just as good on a mobile phone as it does on a desktop computer.
+  -	The info the users need is easy to find, and you can scroll through the site without any issues.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Bugs
+ Most of the bugs that were made in HTML/CSS development are due to the fact of not being familiar with the format of the elements in the code, all of them were solved by a quick scan through the resources available online and in the course itself.
+### Validator Testing
+  -	HTML W3C Validator https://validator.w3.org/nu/?doc=https%3A%2F%2Fcarlitos000.github.io%2Fmy-castle-template%2F
+  	It shows a lack of heading at <section id="main-outer">, however it is a section where the welcome image to the page is present and a heading is not needed and as the warning advises, a div element is used. W3C validator
+•	CSS The W3C CSS Validation https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcarlitos000.github.io%2Fmy-castle-template%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+  - No errors were found when passing through the official (Jigsaw) validator
+### Unfixed Bugs
+ The bugs that were not resolved were:
+  -	The footer does not remain fixed at the bottom of the pages with the exception of the home page
+  -	The background image of page About Us does not cover the entire title and paragraph as planned.
 
-`python3 -m http.server`
+## Deployment
+•	The site was deployed to GitHub pages. The steps to deploy are as follows:
+o	In the GitHub repository, navigate to the Settings tab
+o	From the source section drop-down menu, select the Master Branch
+o	Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+The live link can be found here - https://carlitos000.github.io/my-castle-template/
+## Credits
+ ### Content
+  -	The text for the each Castle pages was edited by me based on information taken from the website https://www.roadaffair.com/
+  -	The icons in the footer were taken from Font Awesome
+  -	The Love Running project was used as a base in some parts of this project's coding.
+### Media
+  -	The photos used on the home and sign up page are from https://www.pexels.com/  and https://www.shutterstock.com/
+  -	The images used for the gallery page were taken from this other open source site
 
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
